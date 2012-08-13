@@ -1,0 +1,27 @@
+---
+abstract: 'test base pulling in L<Catalyst::Test>, L<Test::More>, L<Test::Fatal>, and L<HTTP::Request::Common> for unit tests on Catalyst applications.'
+build_requires:
+  ExtUtils::MakeMaker: 6.36
+configure_requires:
+  ExtUtils::MakeMaker: 6.36
+distribution_type: module
+dynamic_config: 1
+generated_by: 'Module::Install version 1.06'
+license: artistic_2
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: CatalystX-Test-Most
+no_index:
+  directory:
+    - inc
+    - t
+requires:
+  Catalyst::Test: 0
+  HTTP::Request::Common: 0
+  Test::Exception: 0
+  Test::More: 0
+  strictures: 0
+resources:
+  license: http://opensource.org/licenses/artistic-license-2.0.php
+version: 0.01
