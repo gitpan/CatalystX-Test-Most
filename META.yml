@@ -23,8 +23,9 @@ requires:
   HTTP::Request::Common: 0
   Test::Exception: 0
   Test::More: 0
+  Test::WWW::Mechanize::Catalyst: 0
   strictures: 0
 resources:
   license: http://opensource.org/licenses/artistic-license-2.0.php
   repository: git://github.com/pangyre/p5-catalystx-test-most
-version: 0.04
+version: 0.05

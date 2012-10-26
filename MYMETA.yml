@@ -24,5 +24,6 @@ requires:
   HTTP::Request::Common: 0
   Test::Exception: 0
   Test::More: 0
+  Test::WWW::Mechanize::Catalyst: 0
   strictures: 0
-version: 0.04
+version: 0.05
